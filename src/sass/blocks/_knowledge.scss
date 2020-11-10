@@ -1,0 +1,53 @@
+.knowledge {
+    padding: 120px 0 0 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 45px;
+        grid-template-rows: 70px;
+    }
+    &__subtitle {
+        position: relative;
+        padding-left: 13px;
+        margin-top: 8px;
+        font-weight: bold;
+        @include before_circle;
+        &:before {
+            top: -7px;
+            left: 1px;
+        }
+    }
+    &__percent {
+        justify-self: self-end;
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: bold;
+    }
+    &__site, &__desing, &__creativ {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 36px, 34px;
+    }
+    &__scale {
+        margin-top: 27px;
+        grid-column: 1/3;
+        width: 350px;
+        height: 14px;
+        background: #E8E4DE;
+        border-radius: 4px;
+        /* &-orange {
+            background-color: $main-color;
+            width: 200px;
+            height: 14px;
+            border-radius: 4px;
+            z-index: 1;
+        } */
+        span {
+            display: block;
+            background-color: $main-color;
+            height: 100%;
+            border-radius: 4px;
+        }
+    }
+}

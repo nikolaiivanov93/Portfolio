@@ -1,0 +1,33 @@
+.jobs {
+    padding-top: 120px;
+    &__title-blocks {
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 21px;
+    }
+    &__text {
+        margin-top: 15px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
+    }
+    &__img {
+        max-height: 65px;
+    }
+    &__wrapper {
+        padding: 60px 11px 0 11px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(270px, auto));
+        grid-template-rows: repeat(2, auto);
+        grid-auto-rows: minmax(270px, auto);
+        gap: 13px;
+    }
+    &__html, &__css, &__js, &__jquery, &__bootstrap, &__react {
+        display: grid;
+        grid-template-rows: 65px 41px auto;
+        padding: 30px 30px 25px 30px;
+        border: 1px solid #000000;
+    }
+}

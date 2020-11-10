@@ -1,0 +1,15 @@
+.btn {
+    height: 45px;
+    background: $main-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 12px 25px;
+    transition: 0.5s all;
+    &:hover {
+        transform: scale(0.95);
+    }
+    &_transparent {
+        background: rgba(0, 0, 0, 0);
+        padding: 12px 15px;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,25 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.policy {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+.policy .policy__wrapper {
+    margin-top: 20px;
+}
+
+.policy .policy__title {
+    font-size: 24px;
+    line-height: 700;
+}
